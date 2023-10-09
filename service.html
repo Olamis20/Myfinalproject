@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola's car Rental</title>
+    <link rel="stylesheet" href="asset/style/service.css">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="asset/images/logo.JPG" alt=""></a>
+        </div>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="service.html">Service</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+     </header>
+</head>
+<body>
+    <div class="h1">
+        <h1>Our Available Cars</h1>
+    </div>
+    <!--  <div class="service">
+        <img src="asset/images/IMG_0023.JPG" alt="Service 1">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatem, atque iure autem animi ab ve</p>
+        </div>
+    </div>
+
+    <div class="service">
+        <img src="asset/images/IMG_0024.JPG" alt="Service 2">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatem, atque iure autem animi ab ve</p>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="car-list">
+    <div class="car">
+        <img src="asset/images/corrola.JPG" alt="car 1">
+        <h1>Toyota corrola</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/toyotamuscle.JPG" alt="car 1">
+        <h1>Toyota Muscle</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/venza.JPG" alt="car 1">
+        <h1>Toyota Venza</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/lexuscar.JPG" alt="car 1">
+        <h1>Lexus Es</h1>
+        <p>$100 per hour</p>
+        
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+        
+    </div>
+
+    <div class="car">
+        <img src="asset/images/lexusjeep.JPG" alt="car 1">
+        <h1>Lexus</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/lexuofficial.JPG" alt="car 1">
+        <h1>Lexus Jeep</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/benz c.JPG" alt="car 1">
+        <h1>Mercedez benz Glk</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/benz.JPG" alt="car 1">
+        <h1>Mercedez Benz c300</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/meredez.PNG" alt="car 1">
+        <h1>Mercedez Benz 4matic</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+    <div class="car">
+        <img src="asset/images/ford.PNG" alt="car 1">
+        <h1>Ford</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+
+
+       <div class="car">
+        <img src="asset/images/bmw.JPG" alt="car 1">
+        <h1>BMW</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+    <div class="car">
+        <img src="asset/images/honda.WEBP" alt="car 1">
+        <h1>Honda Accord</h1>
+        <p>$100 per hour</p>
+        <input type="number" id="hours-input" placeholder="Enter hours">
+        <button class="order-button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="total-cost"></p>
+        <button>Order now</button>
+    </div>
+</div>
+
+<h1 style="color: yellow; text-align:center;">Contact us to see more of our Cars</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="all">
+<div class="image-container">
+    <img src="asset/images/venza.JPG" alt="Image">
+    <div class="overlay">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Aperiam, veritatis.</p>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/toyotamuscle.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/corrola.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/lexusjeep.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/lexuscar.JPG7                                      " alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/IMG_0023.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/IMG_0023.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/IMG_0023.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="asset/images/IMG_0023.JPG" alt="Image">
+    <div class="overlay">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi minus? Nam quod voluptatem exercitationem suscipit eos fugiat veritatis inventore, molestias in ratione quam quibusdam eum rerum explicabo maxime temporibus?</h4>
+    </div>
+</div>
+
+</div> --> 
+<script src="asset/javascript/service.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+header{
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+
+
+
+body{
+    background-image: url(asset/images/IMG_0017.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    margin: 20px;
+    text-align: center;
+}
+
+h2{
+    color: #333;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"]
+input[type="email"]
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: yellow;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid yellow;
+}
+
+button[type="submit"]:hover{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contact{
+    text-align: center;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label{
+    margin-bottom: 15px;
+}
+
+.contact input, 
+.contact textarea{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact a button{
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.ola{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
